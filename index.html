@@ -1,53 +1,173 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/cce50f3006.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Dojo</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://kit.fontawesome.com/cce50f3006.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Dojo</title>
 </head>
 <body class="bg-slate-800 text-gray-50">
-    <header class="bg-slate-900 shadow-2xl">
-        <div class="container mx-auto px-4 py-4 flex justify-between">
-            <h1 id="blinking-title" class="font-bold text-3xl">artix_school<span class="cursor"></span></h1>
-            <nav>
-                <a href="https://t.me/+yj0gs-4aQwU5MTcy" class="text-3xl" target="_blank">
-                    <i class="fa-brands fa-telegram"></i>
-                </a>
-                <a href="https://github.com/ArtixSchool" class="text-3xl pl-8" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </nav>
+	<header class="bg-slate-900 shadow-2xl">
+		<div class="container mx-auto px-4 py-4 flex justify-between">
+			<h1 id="blinking-title" class="font-bold text-2xl">artix_school<span class="cursor"></span></h1>
+			<nav>
+				<a href="https://t.me/+yj0gs-4aQwU5MTcy" class="text-3xl" target="_blank">
+					<i class="fa-brands fa-telegram"></i>
+				</a>
+				<a href="https://github.com/ArtixSchool" class="text-3xl pl-8" target="_blank">
+					<i class="fa-brands fa-github"></i>
+				</a>
+			</nav>
+		</div>
+	</header>
+	<main class="container mx-auto px-4 py-4">
+    <section class="px-4 py-4">
+      <h2 class="text-xl font-bold">СОФТ:</h2>
+      <div class="flex justify-between gap-5">
+        <div class="flex flex-col justify-between bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl w-1/2">
+          <a href="https://code.visualstudio.com/" target="_blank">
+            <h3 class="text-slate-900 text-white mt-5 text-base font-medium tracking-tight">VS Code</h3>
+          </a>
+          <p class="text-slate-500 text-slate-400 mt-2 text-sm">
+            Visual Studio Code — редактор исходного кода, разработанный Microsoft для Windows, Linux и macOS. Позиционируется как «лёгкий» редактор кода для кроссплатформенной разработки веб- и облачных приложений.
+          </p>
+          <a href="https://code.visualstudio.com/" class="py-4 underline decoration-1" target="_blank">Подробнее</a>
         </div>
-    </header>
-    <main class="container mx-auto px-4">
-        <h2 class="font-bold">HTML и CSS:</h2>
-        <ul>
-            <li>
-                <a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank">MDN HTML</a>
+        <div class="flex flex-col justify-between bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl w-1/2">
+          <a href="https://git-scm.com/" target="_blank">
+            <h3 class="text-slate-900 text-white mt-5 text-base font-medium tracking-tight">Git</h3>
+          </a>
+          <p class="text-slate-500 text-slate-400 mt-2 text-sm">
+            Git (произносится «гит») — распределённая система управления версиями.
+          </p>
+          <a href="https://git-scm.com/" class="py-4 underline decoration-1" target="_blank">Подробнее</a>
+        </div>
+        <div class="flex flex-col justify-between bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl w-1/2">
+          <a href="https://www.figma.com/" target="_blank">
+            <h3 class="text-slate-900 text-white mt-5 text-base font-medium tracking-tight">Figma</h3>
+          </a>
+          <p class="text-slate-500 text-slate-400 mt-2 text-sm">
+            Figma — онлайн-сервис для разработки интерфейсов и прототипирования с возможностью организации совместной работы в режиме реального времени. Сервис доступен по подписке, предусмотрен бесплатный тарифный план для одного пользователя. Имеются офлайн-версии для Windows, macOS..
+          </p>
+          <a href="https://www.figma.com/" class="py-4 underline decoration-1" target="_blank">Подробнее</a>
+        </div>
+      </div>
+    </section>
+    <section class="px-4 py-4">
+      <h2 class="font-bold text-xl uppercase py-4">Книги:</h2>
+      <div class="flex justify-between gap-5 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl my-4">
+        <div>
+          <img src="img/html-css.jpg" alt="html-css" width="250">
+        </div>
+        <div class="w-3/4">
+          <a href="https://oz.by/books/more101097662.html" target="_blank">
+            <h3 class="text-slate-900 text-white mt-5 text-base font-medium tracking-tight">Отзывчивый дизайн на HTML5 и CSS3 для любых устройств
+            </h3>
+          </a>
+          <p class="text-slate-500 text-slate-400 mt-2 text-sm">
+            Вы фуллстек-разработчик, которому нужно развивать навыки фронтенд-разработки? Или фронтенд-разработчик, ищущий качественный обзор современных возможностей HTML и CSS? А может, вы создаете свой веб-сайт и хотите сделать его отзывчивым? Тогда, эта книга вам просто необходима! Со времени выхода предыдущего издания многое изменилось, теперь отзывчивый дизайн — это не новая технология, а стандарт разработки на HTML5 и CSS3. Неформальный и открытый стиль автора позволяет быстро освоить все возможности современного веб-дизайна. Вы получите практические знания о SVG, разметке HTML, создании потрясающей эстетики и эффектов с помощью CSS, переходах, преобразованиях и анимациях и многом другом. Если же вы опытный веб-игрок, то смело переходите к новым темам — гридам (CSS Grid layout) или вариативным шрифтам. К концу книги вы не только получите полное представление об отзывчивом веб-дизайне и возможностях последних версий HTML5 и CSS.
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-between gap-5 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-2xl my-4">
+        <div>
+          <img src="img/wordpress.jpg" alt="html-css" width="250">
+        </div>
+        <div class="w-3/4">
+          <a href="https://oz.by/books/more101097662.html" target="_blank">
+            <h3 class="text-slate-900 text-white mt-5 text-base font-medium tracking-tight">Разработка веб-приложений на WordPress. 2-е издание</h3>
+          </a>
+          <p class="text-slate-500 text-slate-400 mt-2 text-sm">
+            Подробно рассматривается создание веб-приложений на платформе WordPress, в том числе для мобильных устройств, принципы работы таких приложений. Описана структура каталогов и базы данных, приведены типы записей, метаданных и таксономий, перечислены основные классы и функции. Уделено внимание разработке собственной темы оформления с адаптивным дизайном. Рассказывается о типах пользователей и их ролях в архитектуре WordPress. Отдельная глава посвящена работе с API-интерфейсами, объектами и вспомогательными функциями, рассматриваются вопросы безопасности веб-приложений, принципы написания безопасного кода. Изучается REST API в WordPress, JavaScript-фреймворки, способы локализации приложений. Описаны принципы построения многосайтовых сетей, оптимизации и масштабирования. Рассматривается проект Gutenberg и его возможности.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="px-4 py-4">
+      <h2 class="font-bold text-xl uppercase py-4">Ресурсы и Документация:</h2>
+      <div class="flex justify-between py-4">
+        <div>
+          <h3 class="font-bold">HTML и CSS:</h3>
+          <ul class="py-4">
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank">MDN HTML</a>
             </li>
-            <li>
-                <a href="https://htmlacademy.ru/blog/html-tags/book" target="_blank">Справочник HTML</a>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://htmlacademy.ru/blog/html-tags/book" target="_blank">Справочник HTML</a>
             </li>
-            <li>
-                <a href="https://html.spec.whatwg.org/" target="_blank">Spec HTML (eng)</a>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://html.spec.whatwg.org/" target="_blank">Spec HTML (eng)</a>
             </li>
-            <li>
-                <a href="https://developer.mozilla.org/ru/docs/Web/CSS" target="_blank">MDN CSS</a>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://developer.mozilla.org/ru/docs/Web/CSS" target="_blank">MDN CSS</a>
             </li>
-            <li>
-                <a href="https://webref.ru/css" target="_blank">CSS Справочник</a>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://webref.ru/css" target="_blank">CSS Справочник</a>
             </li>
-        </ul>
-        <h2 class="font-bold">Полезности:</h2>
-    </main>
-
-    <script src="script.js"></script>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">JavaScript:</h3>
+          <ul class="py-4">
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://developer.mozilla.org/ru/docs/Web/JavaScript" target="_blank">JavaScript MDN</a>
+            </li>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://learn.javascript.ru/" target="_blank">JavaScript.ru </a>
+            </li>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://javascript30.com/" target="_blank">JavaScript30 (eng)</a>
+            </li>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://www.tutorialrepublic.com/javascript-tutorial/" target="_blank">TutorialRepublic (eng)</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">PHP:</h3>
+          <ul class="py-4">
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://www.php.net/manual/ru/intro-whatis.php" target="_blank">php.net</a>
+            </li> 
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://php720.com/" target="_blank">PHP720</a>
+            </li> 
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://metanit.com/php/" target="_blank">METANIT.COM</a>
+            </li> 
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">WordPress:</h3>
+          <ul class="py-4">
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://wp-kama.ru/" target="_blank">wp-kama</a>
+            </li>
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://wordpress.org/documentation/" target="_blank">Wordpress Docs (eng)</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">Полезности:</h3>
+          <ul class="py-4">
+            <li class="py-1">
+              <a class="underline decoration-1" href="https://www.w3schools.com/" target="_blank">w3schools (eng)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+	</main>
+  <footer class="container mx-auto px-4 py-4">
+    <span class="text-gray-400">2023 </span><a class="text-gray-400" href="https://github.com/artixzenevich">Artik Zenevich</a>
+  </footer>
+	<script src="script.js"></script>
 </body>
 </html>
